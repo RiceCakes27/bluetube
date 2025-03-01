@@ -23,8 +23,7 @@
 #logo-icon {
     content: url("https://file.garden/ZnoaizCCUQ_Qbl8L/yt.svg");
 }
-/*
-#youtube-icon-color {
-  fill: var(--color) !important;
+/*previously played video progress*/
+#progress.ytd-thumbnail-overlay-resume-playback-renderer {
+	background: var(--color);
 }
-*/
