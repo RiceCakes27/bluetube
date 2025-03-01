@@ -1,0 +1,30 @@
+:root {
+	--color: #012e56;
+}
+/*big video player*/
+.ytp-cairo-refresh-signature-moments .ytp-play-progress {
+    background: var(--color);
+}
+.ytp-scrubber-button.ytp-swatch-background-color {
+    background: var(--color);
+}
+/*embeds on other sites*/
+.ytp-play-progress.ytp-swatch-background-color {
+    background: var(--color);
+}
+/*preview video player*/
+.ytProgressBarLineProgressBarPlayed, .ytProgressBarLineProgressBarPlayedRefresh {
+    background: var(--color);
+}
+.ytProgressBarPlayheadProgressBarPlayheadDot {
+	background: var(--color);
+}
+/*icon*/
+#logo-icon {
+    content: url("https://file.garden/ZnoaizCCUQ_Qbl8L/yt.svg");
+}
+/*
+#youtube-icon-color {
+  fill: var(--color) !important;
+}
+*/
