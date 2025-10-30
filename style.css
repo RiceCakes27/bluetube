@@ -2,14 +2,10 @@
 	--color: #012e56;
 }
 /*big video player*/
-.ytp-cairo-refresh-signature-moments .ytp-play-progress {
+.ytp-play-progress, .ytp-cairo-refresh-signature-moments {
     background: var(--color);
 }
-.ytp-scrubber-button.ytp-swatch-background-color {
-    background: var(--color);
-}
-/*embeds on other sites*/
-.ytp-play-progress.ytp-swatch-background-color {
+.ytp-scrubber-button {
     background: var(--color);
 }
 /*preview video player*/
@@ -20,10 +16,22 @@
 	background: var(--color);
 }
 /*icon*/
-#logo-icon {
+.ytd-logo {
     content: url("https://file.garden/ZnoaizCCUQ_Qbl8L/yt.svg");
 }
 /*previously played video progress*/
-#progress.ytd-thumbnail-overlay-resume-playback-renderer {
+#progress.ytd-thumbnail-overlay-resume-playback-renderer, .ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment {
 	background: var(--color);
+}
+/*live indicatior*/
+.guide-entry-badge.ytd-guide-entry-renderer {
+	color: var(--color);
+}
+/*notifications*/
+.yt-spec-icon-badge-shape--type-notification .yt-spec-icon-badge-shape__badge, .yt-spec-icon-badge-shape__badge {
+	background: var(--color);
+}
+/*hd and 4k icons*/
+.ytp-hd-quality-badge::after, .ytp-4k-quality-badge::after {
+	background-color: var(--color) !important;
 }
