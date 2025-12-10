@@ -15,17 +15,27 @@
 .ytProgressBarPlayheadProgressBarPlayheadDot {
 	background: var(--color);
 }
-/*icon*/
-.ytd-logo {
-    content: url("https://file.garden/ZnoaizCCUQ_Qbl8L/yt.svg");
+/*icons*/
+.yt-icon-shape svg g:nth-child(1) > :nth-child(1) {
+    fill: var(--color);
+}
+/*shorts icons*/
+.ytd-rich-shelf-renderer > span svg > :nth-child(1), .ytd-reel-shelf-renderer > span svg > :nth-child(1) {
+	fill: var(--color);
 }
 /*previously played video progress*/
 #progress.ytd-thumbnail-overlay-resume-playback-renderer, .ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment {
 	background: var(--color);
 }
-/*live indicatior*/
+/*live indicatiors*/
 .guide-entry-badge.ytd-guide-entry-renderer {
 	color: var(--color);
+}
+.yt-spec-avatar-shape__live-badge {
+	background-color: var(--color);
+}
+.yt-spec-avatar-shape--live-ring::after {
+	background: var(--color);
 }
 /*notifications*/
 .yt-spec-icon-badge-shape--type-notification .yt-spec-icon-badge-shape__badge, .yt-spec-icon-badge-shape__badge {
@@ -34,4 +44,8 @@
 /*hd and 4k icons*/
 .ytp-hd-quality-badge::after, .ytp-4k-quality-badge::after {
 	background-color: var(--color) !important;
+}
+/*page loading*/
+.yt-page-navigation-progress {
+	background: var(--color) !important;
 }
